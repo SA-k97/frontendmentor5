@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgup{
+    position:absolute;
+    background-image: url(images/bg-pattern-top-mobile.svg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    top: 0;
+    left:0;
+    width: 50%;
+    height: 50%;
+}
+
+.bgdown{
+    position:absolute;
+    background-image: url(images/bg-pattern-bottom-mobile.svg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    bottom: 0;
+    right:0;
+    width: 50%;
+    height: 50%;
+}
+
+section{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Spartan' , sans-serif ;
+    width: 350px;
+    padding-top: 30px;
+
+}
+
+.pregg{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper{
+    text-align: center;
+    
+}
+
+.upper h1{
+    font-weight: 700;    
+    padding:10px 60px;
+    color:hsl(300, 43%, 22%);
+    
+}
+
+.upper p{
+    font-weight: 400;
+    size: 10px;
+    padding:10px 30px;
+    color: hsl(300, 43%, 22%);
+}
+
+.midpart{
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    padding:40px 0px;
+}
+
+.mid1,.mid2,.mid3{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 5px;
+    background-color:hsl(300, 24%, 96%) ;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.midpart .star{
+    background-image: url(images/icon-star.svg);
+    background-position: center;
+    background-size: 17px 16px;
+    width: 85px;
+    height: 16px;
+    margin: 5px;
+    
+}
+
+.eggplant{
+    display: flex;
+    flex-flow: column;
+    
+    
+}
+
+.egg1,.egg2,.egg3{
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    height: 250px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding:50px;
+
+}
+
+.who{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.name{
+    padding-left: 25px;
+    font-size: 12px;
+    line-height:1.8;
+}
+
+
+.face img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+ .title{
+    font-weight: 700;
+    color:white;
+    
+}
+
+.t2{
+    font-weight: 400;
+    color: hsla(333, 80%, 67%, 0.603);
+}
+
+.eggplant p{
+    padding-top: 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height:1.8;
+}
+
+
+@media only screen and (min-width:500px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bgup{
+        position:absolute;
+        background-image: url(images/bg-pattern-top-desktop.svg);
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        top: 0;
+        left:0;
+        width: 50%;
+        height: 50%;
+    }
+    
+    .bgdown{
+        position:absolute;
+        background-image: url(images/bg-pattern-bottom-desktop.svg);
+        background-size: 100% ;
+        background-repeat: no-repeat;
+        bottom: 0;
+        right:0;
+        width: 50%;
+        height: 50%;
+    }
+    
+    section{
+        display:flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Spartan' , sans-serif ;
+        width: 1000px;
+        margin: 100px;
+    
+    }
+
+    .pregg{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        width: 1080px;
+        height: 230px;
+    }
+    
+    .upper{
+        text-align: left;
+        width: 500px;
+        height: 350px;
+        
+        
+    }
+    
+    .upper h1{
+        font-weight: 700;    
+        color:hsl(300, 43%, 22%);
+        padding-left:0 ;
+        font-size: 40px;
+        
+    }
+    
+    .upper p{
+        font-weight: 400;
+        padding-left: 0;
+        font-size: 15px;
+        color: hsl(300, 43%, 22%);
+    }
+    
+    .midpart{
+        display: flex;
+        flex-flow: column;
+        font-size: 10px;
+        font-weight: 500;
+        color: hsl(300, 43%, 22%);
+        text-align: center;
+        width: 500px;
+        height: 350px;
+    }
+    
+    .mid1,.mid2,.mid3{
+        display: flex;
+        justify-content: space-around;
+        flex-flow:row;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        background-color:hsl(300, 24%, 96%) ;
+        width: 350px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .mid1{
+        margin-left:0px;
+    }
+
+    .mid2{
+        margin-left:30px;
+    }
+
+    .mid3{
+        margin-left:60px;
+    }
+    
+    .midpart .star{
+        background-image: url(images/icon-star.svg);
+        background-position:left;
+        background-size: 17px 16px;
+        width: 85px;
+        height: 16px;
+        margin: 5px;
+        
+    }
+    
+    .eggplant{
+        display: flex;
+        flex-flow: row;
+        margin: 20px;
+        
+    }
+    
+    .egg1,.egg2,.egg3{
+        display: flex;
+        flex-flow: column;
+        width: 350px;
+        height: 230px;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 10px;
+        margin: 0px 10px;
+        padding:20px;
+    
+    }
+
+    .egg1{
+        margin-top: 0;
+    }
+
+    .egg2{
+        margin-top: 30px;
+    }
+    
+    .egg3{
+        margin-top: 60px;
+    }
+
+    .who{
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    
+    .name{
+        padding-left: 25px;
+        font-size: 12px;
+        line-height:1.8;
+    }
+    
+    
+    .face img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+     .title{
+        font-weight: 700;
+        color:white;
+        
+    }
+    
+    .t2{
+        font-weight: 400;
+        color: hsla(333, 80%, 67%, 0.603);
+    }
+    
+    .eggplant p{
+        padding-top: 20px;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height:1.8;
+    }
+
+    
+}
